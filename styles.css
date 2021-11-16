@@ -9,7 +9,7 @@ body {
       position: absolute;
 }
 #migithub{
-      top:3220px;
+      top:2608px;
       left:570px;
 }
 #linkgithub{
@@ -156,22 +156,24 @@ body {
     }
 #collatz-foto{
       position: relative;
-      top: -2000px; 
+      top: -1200px; 
       left: -35px;   
 }
 #collatz-texto{
       position: relative;
-      top: -2000px; 
+      font-family: 'Anonymous Pro', monospace;
+      top: -1200px; 
       left: -35px;  
 }
 #chips-calculator-foto{
       position: relative;
-      top: -1500px; 
+      top: -850px; 
       left: -35px;  
 }
 #chips-calculator-texto{
       position: relative;
-      top: -1500px; 
+      font-family: 'Anonymous Pro', monospace;
+      top: -850px; 
       left: -35px;  
 }
 #linkCC{
@@ -180,6 +182,6 @@ body {
       text-decoration: none;
       font-size: 18px;
       color: white;
-      top: -1500px; 
+      top: -850px; 
       left: -35px;     
 }
