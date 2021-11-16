@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <font>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" rel="stylesheet">
+    </font>
+</head>
+<body>
+    <video autoplay muted loop id="video">
+        <source src="img/videoplayback_Trim.mp4" type="video/mp4">
+    </video>
+    <div class="header">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
+    <center>
+        <canvas id="rectangulo"  width="800"; height="3000";></canvas>
+        <h1 id="titulo" class="line anim-typewriter" style="font-family: 'Anonymous Pro', monospace; font-size: 60px;">Programas con Python</h1>
+        <a id="boton" onclick="collatz()" href="programs/collatz.py"><button class="button"  >collatz</button></a>
+        <a id="boton2" onclick="chips-calculator()" href="programs/chips-calculator.py"><button class="button" >chips-calculator</button></a>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+        <script src="scrip.js"></script>
+        <br><br><br><br><br><br>
+        <img id="collatz-foto" src="img/consola1.png">
+        <h3 id="collatz-texto">A partir de la conjetura 3n+1 dependiendo de los parametros <br> que tu decidas, se va a dibujar una forma u otra </h3>
+        <img id="chips-calculator-foto" src="img/consola2.png">
+        <h3 id="chips-calculator-texto">Sirve para calcura las galletas ancestrales para el juego llamado</h3><a id="linkCC" href="https://orteil.dashnet.org/cookieclicker/"> Cookie Clicker</a>
+
+           
+    </center>
+    <h3 id="migithub" style="position: absolute;">Este es mi </h3><a id="linkgithub" href="https://github.com/Cusssy/">Github🐱‍💻</a>
+
+</body> 
+</html>
