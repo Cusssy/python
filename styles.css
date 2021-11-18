@@ -66,6 +66,8 @@ body {
     cursor: pointer;
     border-radius: 3px;
     font-family: 'Anonymous Pro', monospace;
+    transition: background-color 100ms
+    linear;
   }
 .button:hover {
       background-color: #555;
